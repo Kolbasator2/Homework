@@ -1,0 +1,2 @@
+﻿Console.Write("Input words (split they with space): ");
+Console.WriteLine($"Elements {string.Join(" ", Console.ReadLine().Split(" ").Where(s => s.Length <= 3).ToArray())} have length less or equal to 3");
